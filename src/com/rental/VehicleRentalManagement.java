@@ -56,12 +56,6 @@ public class VehicleRentalManagement {
 
         // Display Rental Details
         rental.displayRentalDetails();
-
-
-        // ========================================
-        // IS-A RELATIONSHIP
-        // ========================================
-
         System.out.println("\n========================================");
         System.out.println("          IS-A RELATIONSHIP");
         System.out.println("========================================");
@@ -69,25 +63,12 @@ public class VehicleRentalManagement {
         System.out.println("Car IS-A Vehicle   : " + (car instanceof Vehicle));
         System.out.println("Bike IS-A Vehicle  : " + (bike instanceof Vehicle));
         System.out.println("Truck IS-A Vehicle : " + (truck instanceof Vehicle));
-
-
-        // ========================================
-        // HAS-A RELATIONSHIP
-        // ========================================
-
         System.out.println("\n========================================");
         System.out.println("          HAS-A RELATIONSHIP");
         System.out.println("========================================");
-
         System.out.println("Customer HAS-A Address");
         System.out.println("Rental HAS-A Customer");
         System.out.println("Rental HAS-A Vehicle");
-
-
-        // ========================================
-        // POLYMORPHISM
-        // ========================================
-
         System.out.println("\n========================================");
         System.out.println("             POLYMORPHISM");
         System.out.println("========================================");
