@@ -69,6 +69,12 @@ public class VehicleRentalManagement {
         System.out.println("Customer HAS-A Address");
         System.out.println("Rental HAS-A Customer");
         System.out.println("Rental HAS-A Vehicle");
+
+
+        // ========================================
+        // POLYMORPHISM
+        // ========================================
+
         System.out.println("\n========================================");
         System.out.println("             POLYMORPHISM");
         System.out.println("========================================");
